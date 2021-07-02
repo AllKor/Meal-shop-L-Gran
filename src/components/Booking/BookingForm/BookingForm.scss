@@ -1,0 +1,82 @@
+@import '../../../assets/scss/vars';
+
+.booking-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .booking-form {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 767px) {
+    .booking-form {
+        justify-content: center;
+    }
+}
+
+.booking-form__item {
+    flex: 0 1 50%;
+    margin-bottom: 7rem;
+}
+
+@media (max-width: 992px) {
+    .booking-form__item {
+        flex: 0 1 48%;
+    }
+}
+
+@media (max-width: 767px) {
+    .booking-form__item {
+        flex: 0 1 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .booking-form__item {
+        margin-bottom: 4rem;
+    }
+}
+
+.booking-form__label {
+    font-family: $font-family-sec;
+    font-size: 2.9rem;
+    font-weight: 200;
+    color: $white;
+    margin-bottom: 1.5rem;
+}
+
+.booking-form__button {
+    padding: 0.5rem 11rem;
+    background-color: $gold;
+    text-transform: uppercase;
+    font-family: $font-family-sec;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.6;
+    border: none;
+    border-radius: 0.8rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+    &:disabled {
+        background-color: $grey;
+    }
+}
+
+@media (max-width: 414px) {
+    .booking-form__button {
+        padding: 0.5rem 6rem;
+    }
+}
+
+.booking-form__error {
+    font-size: 2rem;
+    font-weight: 400;
+    color: red;
+}

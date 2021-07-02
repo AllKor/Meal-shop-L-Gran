@@ -1,0 +1,70 @@
+@import '../../../assets/scss/vars';
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid $gold;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+@media (max-width: 414px) {
+    .cart-item {
+        flex-direction: column;
+    }
+}
+
+.cart-item__image {
+    flex: 0 1 20%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+}
+
+.cart-item__content {
+    flex: 0 1 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+@media (max-width: 414px) {
+    .cart-item__content {
+        flex-direction: column;
+    }
+}
+
+.cart-item__name,
+.cart-item__price {
+    font-family: $font-family-prim;
+    font-size: 2rem;
+    font-weight: 400;
+    color: $white;
+
+    span {
+        color: $red;
+    }
+}
+
+@media (max-width: 414px) {
+    .cart-item__price {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.cart-item__delete {
+    font-family: $font-family-sec;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: $white;
+    background-color: $red;
+    border: none;
+    border-radius: 5px;
+    max-height: 3rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}

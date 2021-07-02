@@ -1,0 +1,25 @@
+@import "./assets/scss/fonts.scss";
+@import "./assets/scss/_vars.scss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family-prim;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  width: 100%;
+  max-width: 1285px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

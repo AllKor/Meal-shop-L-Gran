@@ -1,0 +1,13 @@
+.burger {
+    width: 4rem;
+    height: 4rem;
+    fill: #fff;
+    border-radius: 5px;
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .burger {
+        display: block;
+    }
+}

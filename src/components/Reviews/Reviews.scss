@@ -1,0 +1,9 @@
+@import '../../assets/scss/vars';
+
+.reviews {
+    grid-area: review;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 73rem 100% , 0 0;
+    padding: 5rem 0 9rem;
+}

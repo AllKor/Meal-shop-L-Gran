@@ -1,0 +1,35 @@
+@import '../../assets/scss/vars';
+
+.booking {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 2rem;
+}
+
+.booking__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.booking__subtitle {
+    font-family: $font-family-sec;
+    font-size: 2.7rem;
+    font-weight: 400;
+    color: $white;
+}
+
+@media (max-width: 575px) {
+    .booking__subtitle {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .booking__subtitle {
+        font-size: 1.4rem;
+    }
+}
