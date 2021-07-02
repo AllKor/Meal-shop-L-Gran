@@ -1,0 +1,2 @@
+(this["webpackJsonpmeal-shop"]=this["webpackJsonpmeal-shop"]||[]).push([[5],{277:function(e,a,t){"use strict";t.r(a);t(1);var p=t.p+"static/media/empty_page.db7df715.jpg",c=t(0);a.default=function(){var e={backgroundImage:"url(".concat(p,")"),backgroundRepeat:"no-repeat",backgroundSize:"cover",width:"100%",height:"100vh"};return Object(c.jsx)("div",{className:"empty-page",style:e})}}}]);
+//# sourceMappingURL=5.741244e2.chunk.js.map
