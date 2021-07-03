@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Meal-shop-L-Gran/static/css/main.300b7581.chunk.css",
-    "main.js": "/Meal-shop-L-Gran/static/js/main.b23e2fca.chunk.js",
-    "main.js.map": "/Meal-shop-L-Gran/static/js/main.b23e2fca.chunk.js.map",
+    "main.js": "/Meal-shop-L-Gran/static/js/main.c349412e.chunk.js",
+    "main.js.map": "/Meal-shop-L-Gran/static/js/main.c349412e.chunk.js.map",
     "runtime-main.js": "/Meal-shop-L-Gran/static/js/runtime-main.13008859.js",
     "runtime-main.js.map": "/Meal-shop-L-Gran/static/js/runtime-main.13008859.js.map",
     "static/js/2.5f15381e.chunk.js": "/Meal-shop-L-Gran/static/js/2.5f15381e.chunk.js",
@@ -24,7 +24,7 @@
     "static/js/2.5f15381e.chunk.js.LICENSE.txt": "/Meal-shop-L-Gran/static/js/2.5f15381e.chunk.js.LICENSE.txt",
     "static/media/1.25d8b04f.jpg": "/Meal-shop-L-Gran/static/media/1.25d8b04f.jpg",
     "static/media/1.4951cef8.jpg": "/Meal-shop-L-Gran/static/media/1.4951cef8.jpg",
-    "static/media/1.8ad13387.png": "/Meal-shop-L-Gran/static/media/1.8ad13387.png",
+    "static/media/1.71cc6efd.webp": "/Meal-shop-L-Gran/static/media/1.71cc6efd.webp",
     "static/media/10.80009abb.jpg": "/Meal-shop-L-Gran/static/media/10.80009abb.jpg",
     "static/media/2.5c4092b5.jpg": "/Meal-shop-L-Gran/static/media/2.5c4092b5.jpg",
     "static/media/2.6b9d5a2b.jpg": "/Meal-shop-L-Gran/static/media/2.6b9d5a2b.jpg",
@@ -62,6 +62,6 @@
     "static/js/runtime-main.13008859.js",
     "static/js/2.5f15381e.chunk.js",
     "static/css/main.300b7581.chunk.css",
-    "static/js/main.b23e2fca.chunk.js"
+    "static/js/main.c349412e.chunk.js"
   ]
 }
