@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Meal-shop-L-Gran/static/css/main.300b7581.chunk.css",
-    "main.js": "/Meal-shop-L-Gran/static/js/main.a138f057.chunk.js",
-    "main.js.map": "/Meal-shop-L-Gran/static/js/main.a138f057.chunk.js.map",
+    "main.js": "/Meal-shop-L-Gran/static/js/main.3334762d.chunk.js",
+    "main.js.map": "/Meal-shop-L-Gran/static/js/main.3334762d.chunk.js.map",
     "runtime-main.js": "/Meal-shop-L-Gran/static/js/runtime-main.13008859.js",
     "runtime-main.js.map": "/Meal-shop-L-Gran/static/js/runtime-main.13008859.js.map",
     "static/js/2.5f15381e.chunk.js": "/Meal-shop-L-Gran/static/js/2.5f15381e.chunk.js",
@@ -62,6 +62,6 @@
     "static/js/runtime-main.13008859.js",
     "static/js/2.5f15381e.chunk.js",
     "static/css/main.300b7581.chunk.css",
-    "static/js/main.a138f057.chunk.js"
+    "static/js/main.3334762d.chunk.js"
   ]
 }
